@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/**'
       - 'config/**'
+      - 'tools/importer-rest-api-specs/**'
 
 jobs:
   test:
