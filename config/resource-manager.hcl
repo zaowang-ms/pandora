@@ -24,7 +24,7 @@ service "apimanagement" {
 }
 service "app" {
   name      = "ContainerApps"
-  available = ["2023-05-01", "2024-03-01"]
+  available = ["2023-05-01", "2024-02-02-preview", "2024-03-01"]
 }
 service "appconfiguration" {
   name      = "AppConfiguration"
@@ -251,7 +251,7 @@ service "graphservicesprod" {
 }
 service "guestconfiguration" {
   name      = "GuestConfiguration"
-  available = ["2020-06-25", "2022-01-25"]
+  available = ["2020-06-25", "2022-01-25", "2024-04-05"]
 }
 service "hardwaresecuritymodules" {
   name      = "HardwareSecurityModules"
@@ -275,7 +275,7 @@ service "hybridaks" {
 }
 service "hybridcompute" {
   name      = "HybridCompute"
-  available = ["2022-11-10", "2022-12-27"]
+  available = ["2022-11-10", "2022-12-27", "2024-05-20-preview"]
 }
 service "hybridkubernetes" {
   name      = "HybridKubernetes"
@@ -542,7 +542,7 @@ service "solutions" {
 }
 service "sql" {
   name      = "Sql"
-  available = ["2023-02-01-preview", "2023-05-01-preview"]
+  available = ["2023-02-01-preview", "2023-05-01-preview", "2023-08-01-preview"]
 }
 service "sqlvirtualmachine" {
   name      = "SqlVirtualMachine"
